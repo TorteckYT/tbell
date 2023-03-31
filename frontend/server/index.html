@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title>Tbell</title>
+</head>
+<body>
+	<header class="header">
+		<h1 class="title">Tbell</h1>
+	</header>
+	
+	<div class="content">
+		<div class="predzv">
+			<p class="predzv_p">Предупреждающий звонок</p>
+			<input type="checkbox" class="predzv_checkbox">
+		</div>
+
+		<div class="za">
+			<p class="za_p">Подать за <input type="text" class="za_input" value="1" required> минут</p>
+		</div>
+
+		<div class="day">
+
+			<div class="day__date">
+				<p class="day__date_p">День недели:</p>
+				<select name="date" class="day__date_select">
+					<option value="Monday" class="option">Понедельник</option>
+					<option value="Tuesday" class="option">Вторник</option>
+					<option value="Wednesday" class="option">Среда</option>
+					<option value="Thursday" class="option">Четверг</option>
+					<option value="Friday" class="option">Пятница</option>
+					<option value="Saturday" class="option">Суббота</option>
+					<option value="Sunday" class="option">Воскресенье</option>
+				</select>
+			</div>
+				
+			<div class="day__schedule">
+				<!-- <p class="day__schedule_p">1 урок: <input type="time" class="day__schedule_input" required> - <input type="time" class="day__schedule_input" required></p> -->
+			</div>
+
+			<div class="day__buttons">
+				<button class="day__buttons_button">Добавить урок</button>
+				<button class="day__buttons_button">Убрать урок</button> <div class="break"></div>
+				<button class="day__buttons_button">Сохранить</button>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<button class="footer_button">Готово!</button>
+	</footer>
+	
+	<div class="under-footer">
+		<!-- <div class="alert">
+			<h3 class="alert__header">Title</h3>
+			<p class="alert_p">jdfgbwef8wefevbf</p>
+		</div> -->
+	</div>
+
+</body>
+<script src="script.js"></script>
+</html>
