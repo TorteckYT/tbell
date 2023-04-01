@@ -160,7 +160,7 @@ void loop() {
 	if(WiFi.status() == WL_CONNECTED and enc_json != NULL) {
 		timeClient.update();
 		
-		String cur = timeClient.getFormattedTime();
+		String cur = timeClient.getFormattedTime(); 
 		cur.remove(cur.length()-1);
 		cur.remove(cur.length()-1);
 		cur.remove(cur.length()-1);
